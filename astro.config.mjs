@@ -7,5 +7,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://legalfingers.github.io/flowers-site/',
+	base: '/flowers-site/'
 	integrations: [mdx(), sitemap()],
 });
